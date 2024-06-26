@@ -1,4 +1,4 @@
-import { AppBar, Container, Toolbar } from "@mui/material";
+import { AppBar, Container, Toolbar, Typography } from "@mui/material";
 import React from "react";
 
 const NavBar: React.FC = () => {
@@ -6,7 +6,7 @@ const NavBar: React.FC = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar>
-          <h1>Yasiru Wickramasinghe</h1>
+          <Typography variant="h6">Yasiru Wickramasinghe</Typography>
         </Toolbar>
       </Container>
     </AppBar>

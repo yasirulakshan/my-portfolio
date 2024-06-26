@@ -1,13 +1,14 @@
 import React from "react";
 import NavBar from "./components/NavBar";
+import { ThemeProvider } from "@mui/material";
+import { theme } from "./theme/theme";
 
-const Home: React.FC = () => {
+function Home(): React.JSX.Element {
   return (
     <div className="bg-dark">
       <NavBar />
-      YAsiru
     </div>
   );
-};
+}
 
 export default Home;
