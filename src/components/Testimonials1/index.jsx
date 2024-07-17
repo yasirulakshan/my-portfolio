@@ -38,13 +38,12 @@ class Testimonials1 extends React.Component {
       <section
         className={`testimonials section-padding ${this.props.subBgLftstl ? "sub-bg lftstl" : ""} ${this.props.withBG ? "bg-img" : ""} ${this.props.parallaxie ? "parallaxie" : ""} ${!this.props.overlay ? "noOverlay" : ""}`}
         style={{
-          backgroundImage: `${
-            this.props.withBG && !this.props.imgSrc
-              ? "url(/img/slid/3.jpg)"
-              : this.props.imgSrc
+          backgroundImage: `${this.props.withBG && !this.props.imgSrc
+            ? "url(/img/slid/3.jpg)"
+            : this.props.imgSrc
               ? `url(${this.props.imgSrc})`
               : "none"
-          }`,
+            }`,
         }}
         data-overlay-dark={`${this.props.overlay ? "9" : "0"}`}
       >
@@ -80,10 +79,7 @@ class Testimonials1 extends React.Component {
               >
                 <div className="item">
                   <p>
-                    Working with Avo digital agency to support our organic and
-                    paid social media activity has extended the marketing
-                    activities we are able to achieve platform has made
-                    collaboration easy.
+                    Yasiru  worked with me for IEEE Young Proffessionals Sri Lanka Section Y2NPro Project 2021 as a Member Of Design Team.He is a very Creative Person with hardworking & dedication. He is having experience on ui & ux design ,proposal design & poster design etc .I highly recomending Yasiru as an excelent Team Player .
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -92,15 +88,15 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="/kaumudi.jpeg" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                Kaumudi Gunatilaka
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                                Editor-IEEE Computer Society Sri Lanka
                               </span>
                             </div>
                           </>
@@ -123,10 +119,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    Avo started out managing our SEO efforts, but their
-                    scientific approach to digital marketing and the results
-                    they have achieved made it an easy decision for us to
-                    handover the management.
+                    Skilled and Diligent work. Attentive to detail. Hihgly responsive. Woderful Job. HIghly, highly recommended!
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -135,15 +128,15 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="eramuscromwell.webp" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                Erasmus Cromwell
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                                Fiverr Client (USA)
                               </span>
                             </div>
                           </>
@@ -166,10 +159,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    I would highly recommend Avo Digital. I worked with the team
-                    on an animation for our U+2018 Click &amp; Collect U+2019
-                    service. This team is different from any other agency I have
-                    worked with in the past.
+                    Designer was extremely responsive and eager to make changes when necessary. He delivered a clean, minimal, and modern design.
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -178,15 +168,55 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="jiyokim.webp" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                Jiyoon Kim
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                                Fiverr Client (South Korea)
+                              </span>
+                            </div>
+                          </>
+                        ) : (
+                          <>
+                            <div className="img">
+                              <img src="/img/clients/1.jpg" alt="" />
+                            </div>
+                            <h6 className="author-name custom-font">
+                              Alex Regelman
+                            </h6>
+                            <span className="author-details">
+                              Co-founder, Colabrio
+                            </span>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <p>
+                    He is awesome! Was finished in 1/2 the time and did exceptional work. Highly recommend.
+                  </p>
+                  <div className="info">
+                    <div className="cont">
+                      <div className="author">
+                        {this.props.subBgLftstl ? (
+                          <>
+                            <div className="lxleft">
+                              <div className="img">
+                                <img src="jeffelvin.webp" alt="" />
+                              </div>
+                            </div>
+                            <div className="fxright">
+                              <h6 className="author-name custom-font">
+                                Jeff Elvin
+                              </h6>
+                              <span className="author-details">
+                                Fiverr Client (USA)
                               </span>
                             </div>
                           </>

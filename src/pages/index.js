@@ -39,8 +39,8 @@ export default function Home() {
       <AboutWithSkills />
       <Services4 halfBG />
       <Numbers1 />
-      <PortfolioCustomColumn column={2} filterPosition="left" />
-      <Testimonials1 subBgLftstl parallaxie withBG overlay />
+      {/* <PortfolioCustomColumn column={2} filterPosition="left" /> */}
+      <Testimonials1 subBgLftstl parallaxie overlay />
       <BlogsThreeColum2 />
       <ClientsBrands subBG theme="dark" />
       <ContactSection id="contactSection" />
