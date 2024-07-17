@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "darkImage": "/img/clients/brands/dark/01.png",
-    "lightImage": "/img/clients/brands/light/1.png"
+    "url": "/logos/react-svgrepo-com.svg",
+    "heading": "React"
   },
   {
     "id": 2,
-    "darkImage": "/img/clients/brands/dark/02.png",
-    "lightImage": "/img/clients/brands/light/2.png"
+    "url": "/logos/material-ui-svgrepo-com.svg",
+    "heading": "Material UI"
   },
   {
     "id": 3,
-    "darkImage": "/img/clients/brands/dark/03.png",
-    "lightImage": "/img/clients/brands/light/3.png"
+    "url": "/logos/nextjs-svgrepo-com.svg",
+    "heading": "Next.js"
   },
   {
     "id": 4,
-    "darkImage": "/img/clients/brands/dark/04.png",
-    "lightImage": "/img/clients/brands/light/4.png"
+    "url": "/logos/tailwind-css-svgrepo-com.svg",
+    "heading": "Tailwind CSS"
   },
   {
     "id": 5,
-    "darkImage": "/img/clients/brands/dark/05.png",
-    "lightImage": "/img/clients/brands/light/5.png"
+    "url": "/logos/node-js-svgrepo-com.svg",
+    "heading": "Node.js"
   },
   {
     "id": 6,
-    "darkImage": "/img/clients/brands/dark/06.png",
-    "lightImage": "/img/clients/brands/light/6.png"
+    "url": "/logos/mysql-svgrepo-com.svg",
+    "heading": "MySQL"
   },
   {
     "id": 7,
-    "darkImage": "/img/clients/brands/dark/07.png",
-    "lightImage": "/img/clients/brands/light/7.png"
+    "url": "/logos/mongodb-svgrepo-com.svg",
+    "heading": "MongoDB"
   },
   {
     "id": 8,
-    "darkImage": "/img/clients/brands/dark/08.png",
-    "lightImage": "/img/clients/brands/light/8.png"
+    "url": "/logos/java-svgrepo-com.svg",
+    "heading": "Java"
   }
 ]

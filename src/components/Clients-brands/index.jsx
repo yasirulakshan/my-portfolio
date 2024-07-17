@@ -18,7 +18,7 @@ const ClientsBrands = ({ subBG, theme }) => {
           {...{
             dots: false,
             infinite: true,
-            arrows: false,
+            arrows: true,
             autoplay: true,
             slidesToScroll: 1,
             slidesToShow: 4,
@@ -53,36 +53,35 @@ const ClientsBrands = ({ subBG, theme }) => {
                   index + 1 == "1"
                     ? ".3s"
                     : index + 1 == "2"
-                    ? ".6s"
-                    : index + 1 == "3"
-                    ? ".8s"
-                    : index + 1 == "4"
-                    ? ".3s"
-                    : index + 1 == "5"
-                    ? ".4s"
-                    : index + 1 == "6"
-                    ? ".7s"
-                    : index + 1 == "7"
-                    ? ".5s"
-                    : index + 1 == "8"
-                    ? ".3s"
-                    : ""
+                      ? ".6s"
+                      : index + 1 == "3"
+                        ? ".8s"
+                        : index + 1 == "4"
+                          ? ".3s"
+                          : index + 1 == "5"
+                            ? ".4s"
+                            : index + 1 == "6"
+                              ? ".7s"
+                              : index + 1 == "7"
+                                ? ".5s"
+                                : index + 1 == "8"
+                                  ? ".3s"
+                                  : ""
                 }
               >
                 <div className="img">
                   <img
-                    src={theme == "dark" ? item.darkImage : item.lightImage}
+                    src={item.url}
                     alt=""
-                  />
+                    style={{ width: 60 }} />
                 </div>
                 <Split>
-                  <a
-                    href="#0"
+                  <div
                     className="link words chars splitting"
                     data-splitting
                   >
-                    www.avo.com
-                  </a>
+                    {item.heading}
+                  </div>
                 </Split>
               </div>
             </div>

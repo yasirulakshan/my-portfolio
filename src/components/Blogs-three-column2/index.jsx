@@ -90,9 +90,9 @@ const BlogsThreeColumn2 = ({ subBG }) => {
                     Create a Custom Date Range Picker using React Date Picker.
                   </h6>
                   <div className="btn-more custom-font">
-                    <Link href="https://medium.com/@yasiru1999/create-a-custom-date-range-picker-using-react-date-picker-cc65cf0758bf" className="simple-btn" target="_blank" rel="noopener noreferrer">
+                    <div className="simple-btn" target="_blank" rel="noopener noreferrer">
                       Read More
-                    </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -135,8 +135,8 @@ const BlogsThreeColumn2 = ({ subBG }) => {
             </div>
           </div> */}
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 
