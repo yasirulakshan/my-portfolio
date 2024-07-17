@@ -39,7 +39,7 @@ class Testimonials1 extends React.Component {
         className={`testimonials section-padding ${this.props.subBgLftstl ? "sub-bg lftstl" : ""} ${this.props.withBG ? "bg-img" : ""} ${this.props.parallaxie ? "parallaxie" : ""} ${!this.props.overlay ? "noOverlay" : ""}`}
         style={{
           backgroundImage: `${this.props.withBG && !this.props.imgSrc
-            ? "url(/img/slid/3.jpg)"
+            ? "url(./img/slid/3.jpg)"
             : this.props.imgSrc
               ? `url(${this.props.imgSrc})`
               : "none"
@@ -88,7 +88,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/kaumudi.jpeg" alt="" />
+                                <img src="./kaumudi.jpeg" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -103,7 +103,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="./img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
                               Alex Regelman
@@ -128,7 +128,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="eramuscromwell.webp" alt="" />
+                                <img src="./eramuscromwell.webp" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -143,7 +143,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="./img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
                               Alex Regelman
@@ -168,7 +168,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="jiyokim.webp" alt="" />
+                                <img src="./jiyokim.webp" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -183,7 +183,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="./img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
                               Alex Regelman
@@ -208,7 +208,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="jeffelvin.webp" alt="" />
+                                <img src="./jeffelvin.webp" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -223,7 +223,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="./img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
                               Alex Regelman

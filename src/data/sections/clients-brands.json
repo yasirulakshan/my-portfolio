@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "url": "/logos/react-svgrepo-com.svg",
+    "url": "./logos/react-svgrepo-com.svg",
     "heading": "React"
   },
   {
     "id": 2,
-    "url": "/logos/material-ui-svgrepo-com.svg",
+    "url": "./logos/material-ui-svgrepo-com.svg",
     "heading": "Material UI"
   },
   {
     "id": 3,
-    "url": "/logos/nextjs-svgrepo-com.svg",
+    "url": "./logos/nextjs-svgrepo-com.svg",
     "heading": "Next.js"
   },
   {
     "id": 4,
-    "url": "/logos/tailwind-css-svgrepo-com.svg",
+    "url": "./logos/tailwind-css-svgrepo-com.svg",
     "heading": "Tailwind CSS"
   },
   {
     "id": 5,
-    "url": "/logos/node-js-svgrepo-com.svg",
+    "url": "./logos/node-js-svgrepo-com.svg",
     "heading": "Node.js"
   },
   {
     "id": 6,
-    "url": "/logos/mysql-svgrepo-com.svg",
+    "url": "./logos/mysql-svgrepo-com.svg",
     "heading": "MySQL"
   },
   {
     "id": 7,
-    "url": "/logos/mongodb-svgrepo-com.svg",
+    "url": "./logos/mongodb-svgrepo-com.svg",
     "heading": "MongoDB"
   },
   {
     "id": 8,
-    "url": "/logos/java-svgrepo-com.svg",
+    "url": "./logos/java-svgrepo-com.svg",
     "heading": "Java"
   }
 ]

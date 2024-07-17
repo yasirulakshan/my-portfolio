@@ -26,7 +26,7 @@ const AboutWithSkills = () => {
               <p className="wow fadeInUp" data-wow-delay=".5s">
                 Hello! I’m Yasiru Wickramasinghe, a software engineer from Sri Lanka, Moratuwa. I have rich experience in web development and software engineering, and I am skilled in React, Node.js, and MySQL. I look forward to discussing how I can contribute to your projects.
               </p>
-              <a href="/Yasiru_Wickramasinghe.pdf" className="simple-btn mt-40" target="_blank" rel="noopener noreferrer">
+              <a href="./Yasiru_Wickramasinghe.pdf" className="simple-btn mt-40" target="_blank" rel="noopener noreferrer">
                 Download C.V
               </a>
             </div>

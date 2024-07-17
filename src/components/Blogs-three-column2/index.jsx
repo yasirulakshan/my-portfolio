@@ -66,7 +66,7 @@ const BlogsThreeColumn2 = ({ subBG }) => {
                 data-wow-delay=".5s"
               >
                 <div className="img">
-                  <img src="/date-picker.webp" alt="" />
+                  <img src="./date-picker.webp" alt="" />
                 </div>
                 <div className="cont">
                   <div className="date custom-font">

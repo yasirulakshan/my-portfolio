@@ -20,7 +20,7 @@ const Navbar = ({ lr, nr, theme }) => {
         <Link href="/" className="logo">
 
 
-          <img ref={lr} src="/img/my-logo.svg" alt="logo" className="" />
+          <img ref={lr} src="./img/my-logo.svg" alt="logo" className="" />
 
 
         </Link>
