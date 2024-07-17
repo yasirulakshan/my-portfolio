@@ -25,7 +25,7 @@ const LoadingScreen = () => {
         <Script
           id="pace"
           strategy="beforeInteractive"
-          src="/js/pace.min.js"
+          src="./js/pace.min.js"
         ></Script>
       ) : (
         ""
