@@ -15,6 +15,11 @@
 .navbar .navbar-nav .nav-link {
   text-transform: capitalize;
 }
+
+.navbar img {
+  max-width: 30px;
+}
+
 .navbar .navbar-nav .nav-link,
 .video .vid .vid-butn .icon,
 .video-wrapper .vid .vid-butn .icon {
