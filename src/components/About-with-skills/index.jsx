@@ -20,16 +20,13 @@ const AboutWithSkills = () => {
               </div>
               <Split>
                 <h3 className="main-title wow" data-splitting>
-                  My mission is design develop the best Websites around.
+                  My mission is develop the best Websites around.
                 </h3>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".5s">
-                Hello! I’m Alex Smith. Web designer from USA, California, San
-                Francisco. I have rich experience in web site design and
-                building, also I am good at wordpress. I love to talk with you
-                about our unique.
+                Hello! I’m Yasiru Wickramasinghe, a software engineer from Sri Lanka, Moratuwa. I have rich experience in web development and software engineering, and I am skilled in React, Node.js, and MySQL. I look forward to discussing how I can contribute to your projects.
               </p>
-              <a href="#0" className="simple-btn mt-40">
+              <a href="/Yasiru_Wickramasinghe.pdf" className="simple-btn mt-40" target="_blank" rel="noopener noreferrer">
                 Download C.V
               </a>
             </div>
@@ -37,21 +34,21 @@ const AboutWithSkills = () => {
           <div className="col-lg-6 valign">
             <div className="skills-box full-width">
               <div className="skill-item">
-                <h6 className="custom-font">UI / UX Design</h6>
+                <h6 className="custom-font">Front-End</h6>
                 <div className="skill-progress">
                   <div className="progres custom-font" data-value="90%"></div>
                 </div>
               </div>
               <div className="skill-item">
-                <h6 className="custom-font">Development</h6>
+                <h6 className="custom-font">Back-End</h6>
                 <div className="skill-progress">
-                  <div className="progres custom-font" data-value="80%"></div>
+                  <div className="progres custom-font" data-value="85%"></div>
                 </div>
               </div>
               <div className="skill-item">
-                <h6 className="custom-font">Graphic Design</h6>
+                <h6 className="custom-font">Databases</h6>
                 <div className="skill-progress">
-                  <div className="progres custom-font" data-value="88%"></div>
+                  <div className="progres custom-font" data-value="80%"></div>
                 </div>
               </div>
             </div>
