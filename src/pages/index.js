@@ -43,7 +43,7 @@ export default function Home() {
       <Testimonials1 subBgLftstl parallaxie withBG overlay />
       <BlogsThreeColum2 />
       <ClientsBrands subBG theme="dark" />
-      <ContactSection />
+      <ContactSection id="contactSection" />
       <Footer />
     </DarkTheme>
   );

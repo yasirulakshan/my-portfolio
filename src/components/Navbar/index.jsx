@@ -1,18 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Formik, Form, Field } from "formik";
 import Link from "next/link";
-import appData from "../../data/app.json";
 import {
-  handleDropdown,
   handleMobileDropdown,
-  handleSearch,
+
 } from "../../common/navbar";
 
 const Navbar = ({ lr, nr, theme }) => {
-  React.useEffect(() => {
-    handleSearch();
-  }, []);
+  // React.useEffect(() => {
+  //   handleSearch();
+  // }, []);
   return (
     <nav
       ref={nr}
@@ -45,7 +42,7 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -72,9 +69,9 @@ const Navbar = ({ lr, nr, theme }) => {
                   Freelancer
                 </Link>
               </div>
-            </li>
+            </li> */}
 
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -101,13 +98,13 @@ const Navbar = ({ lr, nr, theme }) => {
                   Boxed Carousel
                 </Link>
               </div>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link href="/about/about-dark" className="nav-link">
                 About
               </Link>
-            </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            </li> */}
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -131,14 +128,14 @@ const Navbar = ({ lr, nr, theme }) => {
                   Pinterest List
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <Link href="/contact/contact-dark" className="nav-link">
+              <Link href="#contactSection" className="nav-link">
                 Contact
               </Link>
             </li>
           </ul>
-          <div className="search">
+          {/* <div className="search">
             <span className="icon pe-7s-search cursor-pointer"></span>
             <div className="search-form text-center custom-font">
               <Formik
@@ -159,7 +156,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Formik>
               <span className="close pe-7s-close cursor-pointer"></span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
