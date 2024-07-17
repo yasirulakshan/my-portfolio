@@ -9,6 +9,7 @@ const Numbers1 = () => {
     <section className="number-sec section-padding sub-bg">
       <div className="container">
         <div className="row">
+          <div className="col-lg-3 col-md-0" />
           {numbers1Data.map((item) => (
             <div className="col-lg-3 col-md-6" key={item.id}>
               <div className={`item ${item.id == 1 ? "no-bord" : ""}`}>
