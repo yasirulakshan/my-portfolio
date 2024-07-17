@@ -22,7 +22,7 @@ const Footer = ({ noSubBG }) => {
             <div className="cont">
               <div className="logo">
                 <a href="#0">
-                  <img src="/img/my-logo.svg" alt="" />
+                  <img src="./img/my-logo.svg" alt="" />
                 </a>
               </div>
               <div className="con-info custom-font">
