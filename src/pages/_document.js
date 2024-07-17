@@ -15,13 +15,13 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Avo onepage themeforest"
+            content="Yasiru Wickramasinghe's personal website"
           />
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="Yasiru Wickramasinghe's personal website"
           />
-          <meta name="author" content="" />
+          <meta name="author" content="Yasiru Wickramasinghe" />
           <link rel="shortcut icon" href="./img/favicon.ico" />
           {/* Google Fonts */}
           <link
