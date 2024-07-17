@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
       <Script
         strategy="beforeInteractive"
         id="splitting"
-        src="/js/splitting.min.js"
+        src="./js/splitting.min.js"
       ></Script>
       <Script id="simpleParallax" src="/js/simpleParallax.min.js"></Script>
       <Script
