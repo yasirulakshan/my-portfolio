@@ -43,7 +43,8 @@ export default function Home() {
       <Testimonials1 subBgLftstl parallaxie overlay />
       <BlogsThreeColum2 />
       <ClientsBrands subBG theme="dark" />
-      <ContactSection id="contactSection" />
+      <div style={{ height: 50 }} />
+      {/* <ContactSection id="contactSection" /> */}
       <Footer />
     </DarkTheme>
   );

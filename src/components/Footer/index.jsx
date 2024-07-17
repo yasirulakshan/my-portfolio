@@ -15,51 +15,50 @@ const Footer = ({ noSubBG }) => {
   }
   const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
-    <footer className={`footer-half ${noSubBG ? '':'sub-bg'} section-padding pb-0`}>
+    <footer className={`footer-half ${noSubBG ? '' : 'sub-bg'} section-padding pb-0`} id="contactSection">
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
             <div className="cont">
               <div className="logo">
                 <a href="#0">
-                  <img src={`${appData.lightLogo}`} alt="" />
+                  <img src="/img/my-logo.svg" alt="" />
                 </a>
               </div>
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> Avo_support@website.com
+                    <span>Email : </span> <a href="mailto: yasiru1999@gmail.com"> yasiru1999@gmail.com</a>
                   </li>
                   <li>
-                    <span>Address : </span> A32 , Ave 15th Street, Door 211, San
-                    Franciso, USA 32490.
+                    <span>Address : </span> No. 270, Wiharamawatha, Weliamuna, Walasmulla (82450), Sri Lanka
                   </li>
                   <li>
-                    <span>Phone : </span> (+1) 2345 678 44 88
+                    <span>Phone : </span> (+94) 77 21 61 415
                   </li>
                 </ul>
               </div>
               <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">Follow Us</h6>
+                <h6 className="custom-font stit simple-btn">Follow Me</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
+                  <a href="https://www.linkedin.com/in/yasiru-lakshan19/" className="icon" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/yasirulakshan" className="icon" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.facebook.com/yasiru.lakshan19" className="icon" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                  <a href="https://www.instagram.com/yasiru.lak/" className="icon" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-2">
-            <div className="subscribe mb-50">
+            {/* <div className="subscribe mb-50">
               <h6 className="custom-font stit simple-btn">Newslatter</h6>
               <p>Sign up for subscribe out newsletter!</p>
               <Formik
@@ -104,12 +103,12 @@ const Footer = ({ noSubBG }) => {
                   <img src="/img/insta/3.jpg" alt="" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+            © 2024 Yasiru Wickramasinghe
           </p>
         </div>
       </div>
