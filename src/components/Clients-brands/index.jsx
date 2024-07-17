@@ -18,7 +18,7 @@ const ClientsBrands = ({ subBG, theme }) => {
           {...{
             dots: false,
             infinite: true,
-            arrows: true,
+            arrows: false,
             autoplay: true,
             slidesToScroll: 1,
             slidesToShow: 4,
