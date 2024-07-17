@@ -20,7 +20,7 @@ const AboutWithSkills = () => {
               </div>
               <Split>
                 <h3 className="main-title wow" data-splitting>
-                  My mission is develop the best Websites around.
+                  My mission is to develop the best Websites around.
                 </h3>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".5s">
