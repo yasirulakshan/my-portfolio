@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Avo</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <title>Yasiru Wickramasinghe</title>
+        <link rel="icon" href="/img/my-logo.svg" />
       </Head>
       <Cursor />
       <LoadingScreen />
