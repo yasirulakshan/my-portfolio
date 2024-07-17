@@ -4,7 +4,7 @@ const IntroTxt = ({ subBG }) => {
   return (
     <header
       className={`freelancer ${subBG ? "sub-bg" : ""} valign bg-img parallaxie`}
-      style={{ backgroundImage: "url(/img/slid/freelancer.jpg)" }}
+      style={{ backgroundImage: "url(/img/main.jpg)" }}
       data-overlay-dark="4"
     >
       <div className="container">
@@ -15,17 +15,14 @@ const IntroTxt = ({ subBG }) => {
               <h1>Yasiru Wickramasinghe</h1>
               <h4>Software Engineer</h4>
               <div className="social-icon">
-                <a href="#0" className="icon">
+                <a href="https://www.linkedin.com/in/yasiru-lakshan19/" className="icon" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/yasirulakshan" className="icon" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/yasiru.lakshan19" className="icon" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
                 </a>
               </div>
             </div>
