@@ -1686,6 +1686,7 @@ body {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
+  z-index: 100;
 }
 .navbar .dropdown-menu .dropdown-item:hover {
   padding-left: 30px;
