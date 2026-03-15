@@ -91,6 +91,93 @@ body .slick-dots li button {
 section.next-prog {
   overflow: hidden;
 }
+/* Fix: prevent .tbg decorative text from overlapping other sections and blocking clicks */
+section.services {
+  overflow: hidden;
+}
+.sec-head .tbg {
+  z-index: -1 !important;
+  pointer-events: none !important;
+}
+/* Fix mobile layout: ensure About section content stays above decorative elements */
+.hero-sec {
+  position: relative;
+  z-index: 1;
+}
+.hero-sec .cont {
+  position: relative;
+  z-index: 2;
+}
+.hero-sec .cont a.simple-btn {
+  position: relative;
+  z-index: 3;
+}
+
+/* Mobile responsive fixes */
+@media screen and (max-width: 991px) {
+  .hero-sec .skills-box {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .hero-sec .skills-box .skill-item {
+    margin-bottom: 40px;
+  }
+  .freelancer .cont h1 {
+    font-size: 60px;
+  }
+  .blog-grid .item .img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .blog-grid .col-lg-4 {
+    margin-bottom: 30px;
+  }
+  .number-sec .item {
+    text-align: center;
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-sec .cont h3 {
+    font-size: 22px;
+  }
+  .hero-sec .skills-box {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .hero-sec .skills-box .skill-item {
+    margin-bottom: 30px;
+  }
+  .freelancer .cont h1 {
+    font-size: 42px;
+  }
+  .freelancer .cont h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .sec-head .tbg {
+    font-size: 18vw;
+  }
+  .blog-grid .item .img {
+    max-height: 220px;
+    overflow: hidden;
+  }
+  .blog-grid .item .img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  .number-sec .item {
+    text-align: center;
+    padding: 15px 5px;
+    margin-bottom: 20px;
+  }
+  .testimonials .sec-head {
+    margin-bottom: 40px;
+  }
+}
 .hideX #preloader {
   display: none !important;
   z-index: -1111111;
