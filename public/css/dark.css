@@ -1396,8 +1396,10 @@ body {
   font-size: 10vw;
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
   opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
 }
 .sec-head.tr-head {
   text-align: right;
@@ -2514,16 +2516,11 @@ header.simpl .caption .btn-curve {
   font-weight: 300;
   font-size: 14px;
   opacity: 0;
-  -webkit-transform: translateY(-20px);
-  -ms-transform: translateY(-20px);
-  transform: translateY(-20px);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0;
   -webkit-transform: translateY(20px);
   -ms-transform: translateY(20px);
   transform: translateY(20px);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s;
   -webkit-transition-delay: 0.8s;
   -o-transition-delay: 0.8s;
@@ -4377,55 +4374,8 @@ header.simpl .caption .btn-curve {
 .next-prog .box .caption h1 .stroke,
 .next-prog .box .copy-cap h1 .stroke {
   display: inline-block;
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-}
-.next-prog .box .copy-cap {
-  z-index: -1;
-}
-
-/* ====================== [ End Work ] ====================== */
-/* ====================== [ Start services ] ====================== */
-.process .coulmn {
-  position: relative;
-}
-.process .coulmn:after {
-  position: absolute;
-  content: "";
-  width: 75px;
-  border-top: 2px dashed #75dab4;
-  top: 75px;
-  right: -35px;
-}
-
-.process .item {
-  text-align: center;
-}
-.process .item .bg-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 0 auto 30px;
-  text-align: center;
-  position: relative;
-}
-.process .item .bg-img:after {
-  content: "";
-  position: absolute;
-  top: 7px;
-  left: 7px;
-  right: 7px;
-  bottom: 7px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.25);
-}
-.process .item .bg-img h3 {
   color: #fff;
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 150px;
-  position: relative;
-  z-index: 3;
+  -webkit-text-stroke: 0px #fff;
 }
 
 /* ====================== [ End services ] ====================== */
@@ -5465,231 +5415,6 @@ header.simpl .caption .btn-curve {
   background: #13161d;
   border: 0;
 }
-.blog-pg.single .comment-form form textarea {
-  height: 140px;
-}
-.blog-pg.single .comment-form form button {
-  cursor: pointer;
-}
-
-.next-project {
-  position: relative;
-  padding: 80px 0;
-  margin-top: 90px;
-  background: #fafafa;
-  z-index: 2;
-  overflow: hidden;
-}
-.next-project:before {
-  display: none;
-}
-.next-project:after {
-  content: "";
-  height: 0;
-  width: 100%;
-  position: absolute;
-  bottom: auto;
-  right: 0;
-  top: 0;
-  -webkit-transition: height 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
-  -o-transition: height 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
-  transition: height 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
-  background: #f5f5f5;
-  z-index: -1;
-}
-.next-project:hover:after {
-  height: 100%;
-  bottom: 0;
-  top: auto;
-}
-.next-project .content {
-  width: 100%;
-}
-.next-project .content h2 {
-  font-size: 90px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  margin-bottom: 20px;
-}
-.next-project .content p {
-  font-size: 18px;
-  color: #555;
-}
-
-/* ====================== [ End Blog ] ====================== */
-/* ====================== [ Start Call To Action  ] ====================== */
-.call-action .content h6 {
-  color: #75dab4;
-  font-size: 13px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  margin-bottom: 10px;
-}
-.call-action .content h6 span {
-  color: #75dab4;
-}
-
-.call-action .content h2 {
-  font-weight: 700;
-  font-size: 4vw;
-  line-height: 1.2;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
-  color: transparent;
-}
-.call-action .content h2 span {
-  color: transparent;
-}
-.call-action .content h2 b span {
-  color: #fff;
-  -webkit-text-stroke-width: 0;
-}
-
-.call-action .content p {
-  font-size: 17px;
-  font-weight: 300;
-}
-
-.call-action .btn-curve {
-  border: 2px solid;
-  line-height: 2;
-}
-.call-action .btn-curve span {
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-.call-action .btn-curve:hover span {
-  color: #0c0f16;
-}
-
-.call-action .tlink {
-  margin-left: auto;
-  border-bottom: 1px solid #eee;
-}
-
-.call-action.next {
-  position: relative;
-  z-index: 2;
-  overflow: hidden;
-}
-.call-action.next:after {
-  display: none;
-}
-.call-action.next:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  background: #0a0a0a;
-  opacity: 1;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.call-action.next .content h2 {
-  font-size: 5vw;
-  font-weight: 700;
-}
-.call-action.next .content h2 b {
-  font-weight: 700;
-}
-.call-action.next .nxt-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  -webkit-transform: scale(1.4);
-  -ms-transform: scale(1.4);
-  transform: scale(1.4);
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  -webkit-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  transition: all 1s linear;
-}
-.call-action.next:hover:before {
-  opacity: 0.9;
-}
-.call-action.next:hover .nxt-img {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: all 10s linear;
-  -o-transition: all 10s linear;
-  transition: all 10s linear;
-}
-
-/* ====================== [ End Call To Action  ] ====================== */
-/* ====================== [ Start Numbers & Counter  ] ====================== */
-.number-sec .item {
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
-.number-sec .item:after {
-  content: "";
-  width: 1px;
-  height: 100%;
-  background: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  opacity: 0.05;
-}
-.number-sec .item.no-bord:after {
-  display: none;
-}
-.number-sec .item .icon {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  font-size: 70px;
-  width: 100%;
-  opacity: 0.05;
-  z-index: -1;
-}
-.number-sec .item h3 {
-  font-weight: 200;
-  letter-spacing: 2px;
-  margin-bottom: 15px;
-}
-.number-sec .item p {
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-/* ====================== [ End Numbers & Counter  ] ====================== */
-/* ====================== [ Start contact ] ====================== */
-.contact-sec .form .form-group {
-  margin-bottom: 30px;
-}
-.contact-sec .form .form-group input,
-.contact-sec .form .form-group textarea {
-  width: 100%;
-  padding: 15px 0;
-  border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: transparent;
-  color: #fff;
-  font-family: "Barlow Condensed", sans-serif;
-}
-
-.contact-sec .form button {
-  color: #fff;
-  font-size: 17px;
-  background: transparent;
-  border: 0;
-}
 
 .contact .form input,
 .contact .form textarea {
@@ -5738,7 +5463,6 @@ header.simpl .caption .btn-curve {
   background: rgba(255, 255, 255, 0.01);
   border-radius: 50%;
   margin-right: 5px;
-  font-size: 13px;
 }
 
 .map {
@@ -6062,10 +5786,6 @@ header.simpl .caption .btn-curve {
   .about .blc-img .skills-circle .item {
     width: 50%;
   }
-  .hero-sec .skills-box {
-    padding-left: 0;
-    margin-top: 50px;
-  }
   .team .navs {
     position: absolute;
     top: 60px;
@@ -6082,6 +5802,7 @@ header.simpl .caption .btn-curve {
   .services .rtwo > div:nth-of-type(2),
   .services .rone > div:nth-of-type(2) {
     margin-bottom: 0px;
+    margin-top: auto;
   }
   .sec-head.tr-head {
     text-align: center;
@@ -6209,125 +5930,48 @@ header.simpl .caption .btn-curve {
     width: 40px;
   }
   .hamenu .menu-links .main-menu > li {
-    font-size: 24px;
+    font-size: 20px;
+    padding: 7px;
   }
   .hamenu .menu-links .main-menu .sub-menu li {
-    font-size: 18px;
+    font-size: 16px;
   }
   .topnav .container-fluid {
-    padding: 0 30px;
+    padding: 0 15px;
   }
-  .topnav .logo {
-    width: 40px;
-  }
-  .btn-curve {
-    padding: 8px 15px;
-  }
-  .btn-curve span {
+  .pages-header .cont .path {
     font-size: 15px;
-    letter-spacing: 1px;
   }
-  .slider .parallax-slider .caption h1 {
-    font-size: 40px;
-  }
-  .slider .parallax-slider .caption h1 br {
-    display: none;
-  }
-  .slider .parallax-slider .swiper-slide-active .caption h1 {
-    font-size: 30px;
-  }
-  .slider .social-icon {
-    display: none;
-  }
-  .slider .setone.setwo .prev-ctrl {
-    left: 15px;
-    bottom: 15px;
-    top: auto;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-  }
-  .slider .setone.setwo .next-ctrl {
-    left: 70px;
-    bottom: 15px;
-    top: auto;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-  }
-  .slider .swiper-pagination-fraction.top.botm {
-    right: 15px;
-    bottom: 15px;
-  }
-  .slider .swiper-pagination-fraction.top .swiper-pagination-current {
-    font-size: 40px;
-  }
-  .slider .parallax-slider .caption.dig h1 {
-    font-size: 40px;
+  .pages-header .cont .path span {
+    margin: 0 10px;
   }
   .slider-bus .caption h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
-  header.simpl .caption h1 {
-    font-size: 40px;
+  .slider .swiper-pagination-fraction.steps {
+    bottom: 60px;
   }
-  header.simpl .caption p {
-    font-size: 17px;
-  }
-  .freelancer .cont h1 {
-    font-size: 44px;
-  }
-  .slider-bus .setone {
-    bottom: 20px;
-    right: 20px;
-  }
-  .slider-bus .swiper-pagination-fraction {
-    left: 20px;
-    bottom: 20px;
-  }
-  .showcase-carus .swiper-slide .bg-img {
-    margin: 0;
-    height: 100vh;
-    background-position: center center;
+  .circle-slide .swiper-slide .bg-img {
+    height: 280px !important;
+    width: 280px !important;
   }
   .showcase-carus.circle-slide .caption h1,
   .showcase-carus.circle-slide .copy-cap h1 {
-    font-size: 50px;
-    min-width: auto;
-    margin: auto !important;
-    left: 0;
-  }
-  .works-header .capt h2 {
     font-size: 40px;
   }
-  .slider.fixed-slider,
-  .works-header.hfixd {
-    position: static;
-  }
-  .main-content {
-    margin-top: 0 !important;
-  }
-  .about .img-mons .img1,
-  .about .img-mons .img2,
-  .about .img-mons .img3 {
-    margin-bottom: 10px;
-  }
-  .about .img-mons .img3 {
-    width: 100%;
-    margin-top: 0;
+  .works-header .capt h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
   }
   .sec-head h3 {
-    font-size: 45px;
+    font-size: 35px;
   }
-  .sec-head h6 {
-    font-size: 15px;
-    letter-spacing: 5px;
+  .about .blc-img .skills-circle {
+    display: block;
+    padding-bottom: 30px !important;
   }
-  .skills-circle {
-    padding-bottom: 0 !important;
-  }
-  .skills-circle .item {
-    margin-bottom: 50px;
+  .about .blc-img .skills-circle .item {
+    width: 100%;
   }
   .team .navs {
     top: 20px;
@@ -6402,18 +6046,8 @@ header.simpl .caption .btn-curve {
   .about .blc-img .skills-circle .item {
     width: 100%;
   }
-  .about .blc-img .skills-circle .item:last-of-type {
-    margin-left: 0;
-  }
-  .portfolio .gallery .items {
-    padding: 0 15px;
-    margin: 0 0 50px;
-  }
-  .portfolio .gallery .items.lg-mr {
-    margin-top: 50px;
-  }
-  .portfolio .filtering.smplx span {
-    margin: 5px 15px;
+  .team .navs {
+    top: 20px;
   }
   .block-sec .vid-area .cont h3 {
     font-size: 28px;

@@ -8,10 +8,9 @@ const Numbers1 = () => {
   return (
     <section className="number-sec section-padding sub-bg">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-3 col-md-0" />
+        <div className="row justify-content-center">
           {numbers1Data.map((item) => (
-            <div className="col-lg-3 col-md-6" key={item.id}>
+            <div className="col-lg-3 col-md-6 col-sm-6 col-6" key={item.id}>
               <div className={`item ${item.id == 1 ? "no-bord" : ""}`}>
                 <span className={`icon ${item.icon}`}></span>
                 <h3 className="custom-font">

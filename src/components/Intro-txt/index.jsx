@@ -13,7 +13,7 @@ const IntroTxt = ({ subBG }) => {
             <div className="cont">
               <h6>Hello, I&apos;m</h6>
               <h1 >Yasiru Wickramasinghe</h1>
-              <h4>Software Engineer</h4>
+              <h4>Senior Software Engineer</h4>
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/yasiru-lakshan19/" className="icon" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin"></i>
