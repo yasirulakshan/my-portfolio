@@ -47,7 +47,7 @@ const BlogsThreeColumn2 = ({ subBG }) => {
                     </div>
                   </div>
                   <h6>
-                    Create a Custom Date Range Picker using React Date Picker.
+                    Understanding the "!" In the TypeScript
                   </h6>
                   <div className="btn-more custom-font">
                     <div className="simple-btn" target="_blank" rel="noopener noreferrer">
